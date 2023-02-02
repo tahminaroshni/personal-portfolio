@@ -1,9 +1,11 @@
-import React from 'react';
+import Bio from './Bio';
+import Hero from './Hero';
 
 const Home = () => {
   return (
-    <div>
-      Home
+    <div id='home' className='home container mx-auto mt-20'>
+      <Hero />
+      <Bio />
     </div>
   );
 };
