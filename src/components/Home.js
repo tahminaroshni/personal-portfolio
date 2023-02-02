@@ -1,11 +1,13 @@
 import Bio from './Bio';
 import Hero from './Hero';
+import Projects from './Projects';
 
 const Home = () => {
   return (
-    <div id='home' className='home container mx-auto mt-20'>
+    <div id='home'>
       <Hero />
       <Bio />
+      <Projects />
     </div>
   );
 };

@@ -45,7 +45,7 @@ body {
   background-color: var(--color-dark);
   color: var(--color-light);
   font-family: "Michroma", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 2px;
   line-height: 1.6;
   word-spacing: 3px;
@@ -93,7 +93,8 @@ body {
   position: relative;
 }
 
-.hero-img {
+.hero-img,
+.project-right-img {
   height: 500px;
   width: 500px;
   overflow: hidden;
@@ -142,4 +143,11 @@ body {
 .circle-right {
   bottom: -40%;
   right: -20%;
+}
+
+/* Projects Section */
+.section-title {
+  font-family: "Cosi azure", sans-serif;
+  font-size: 10rem;
+  line-height: 1;
 }

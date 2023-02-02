@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container mx-auto mt-20">
       <div className="noise"></div>
       <Navbar />
       <Routes>
@@ -30,3 +30,9 @@ export default App;
 // https://res.cloudinary.com/dpz7iqses/image/upload/v1675318044/personal-portfolio/food-verse-3_ee9tvp.png
 // https://res.cloudinary.com/dpz7iqses/image/upload/v1675318034/personal-portfolio/about-1_dqkg69.jpg
 // https://res.cloudinary.com/dpz7iqses/image/upload/v1675318040/personal-portfolio/about-2_faul2l.jpg
+
+// https://tech-alpha-project.netlify.app
+// https://foodverse-project.netlify.app
+
+// https://github.com/tahminaroshni/tech-alpha
+// https://github.com/tahminaroshni/foodverse
