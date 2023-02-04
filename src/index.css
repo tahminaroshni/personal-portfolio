@@ -94,7 +94,8 @@ body {
 }
 
 .hero-img,
-.project-right-img {
+.project-right-img,
+.about-left-img {
   height: 500px;
   width: 500px;
   overflow: hidden;
@@ -151,3 +152,46 @@ body {
   font-size: 10rem;
   line-height: 1;
 }
+
+/* Skills Section */
+.skill-item {
+  position: relative;
+}
+
+.skill-item::before,
+.skill-item:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  left: 0;
+  bottom: 0;
+}
+
+.skill-item::before {
+  background-color: var(--color-light);
+  opacity: 0.3;
+  width: 100%;
+}
+
+.skill-item:after {
+  width: 0%;
+  transition: 0.4s;
+}
+
+.skill-item:hover::after {
+  background-color: #06b6d4;
+  width: 100%;
+}
+
+.skill-id {
+  font-size: 5rem;
+}
+
+/* About Section */
+.about-btn,
+.contact-btn {
+  letter-spacing: inherit;
+  word-spacing: inherit;
+}
+
+/* Contact Section */

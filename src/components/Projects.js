@@ -1,4 +1,5 @@
 import Project from "./Project";
+import SectionTitle from "./SectionTitle";
 
 const projects = [
   {
@@ -39,9 +40,7 @@ const projects = [
 const Projects = () => {
   return (
     <div id="projects" className="projects">
-      <div className="section-title overflow-hidden mt-40">
-        <h2>Projects</h2>
-      </div>
+      <SectionTitle title="projects" />
       <div className="projects-wrapper mt-40 flex flex-col gap-40">
         {
           projects.map(project => <Project key={project.id} project={project} />)
