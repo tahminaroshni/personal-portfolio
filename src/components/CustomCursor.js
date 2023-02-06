@@ -1,9 +1,12 @@
 
-const CustomCursor = () => {
+
+const CustomCursor = ({ innerCursorRef, outerCursorRef }) => {
+
   return (
-    <div>
-      Cursor
-    </div>
+    <>
+      <div ref={innerCursorRef} className="inner-cursor"></div>
+      <div ref={outerCursorRef} className="outer-cursor"></div>
+    </>
   );
 };
 
