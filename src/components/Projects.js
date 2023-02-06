@@ -39,7 +39,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div id="projects" className="projects">
+    <div id="projects" className="projects overflow-hidden">
       <SectionTitle title="projects" />
       <div className="projects-wrapper mt-40 flex flex-col gap-40">
         {

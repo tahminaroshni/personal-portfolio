@@ -176,6 +176,11 @@ body {
 .skill-item::before {
   background-color: var(--color-light);
   opacity: 0.3;
+  width: 0;
+  transition: 0.5s;
+}
+
+.skill-item.reveal::before {
   width: 100%;
 }
 
