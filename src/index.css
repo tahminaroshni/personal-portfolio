@@ -32,6 +32,12 @@
   border-radius: 20px;
 }
 
+*,
+*::before,
+*::after {
+  cursor: none;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -207,5 +213,28 @@ body {
   border-radius: 50%;
   top: 0;
   left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s, height 0.5s;
+  z-index: 999;
+  mix-blend-mode: difference;
+}
 
+.inner-cursor.grow {
+  width: 18px;
+  height: 18px;
+}
+
+.outer-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-light);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+  z-index: 999;
 }
