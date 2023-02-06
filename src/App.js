@@ -6,11 +6,13 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import { useCustomCursor } from "./hooks/useCustomCursor";
+import { useSmoothScroll } from "./hooks/useSmoothScroll";
 
 function App() {
   const innerCursorRef = useRef(null);
   const outerCursorRef = useRef(null);
 
+  useSmoothScroll();
   useCustomCursor(innerCursorRef, outerCursorRef);
 
   return (
