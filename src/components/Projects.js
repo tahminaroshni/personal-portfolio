@@ -10,7 +10,6 @@ const projects = [
     description: "Tech Alpha is a modern web application built using React, Redux Toolkit, Tailwind CSS, and React Router. The project leberages the power of Redux Thunk and Axios to fetch and manage data seamlessly, allowing for a dynamic and responsive user experience. Users are able to add their favorite products to a virtual cart and book them for purchase, making the shopping process quick and convenient. This project showcases the potential of React, Redux and other cutting-edge technologies,  delivering a high-quality and user-friendly experience to its users. ",
     tools: [
       "React.js",
-      "Redux",
       "Redux Toolkit",
       "React Router",
       "RTK Query",
