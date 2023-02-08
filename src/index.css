@@ -112,6 +112,7 @@ body {
   z-index: 100;
   font-family: "Cosi azure", sans-serif;
   font-size: 10rem;
+  mix-blend-mode: difference;
 }
 
 .shutter-left {
@@ -242,4 +243,80 @@ body {
   transform: translate(-50%, -50%);
   transition: 0.1s;
   z-index: 999;
+}
+
+/* Media Query */
+@media screen and (max-width:1280px) {
+
+  .App {
+    padding: 0 6rem;
+  }
+
+  .hero-img,
+  .project-right-img,
+  .about-left-img {
+    height: 350px;
+    width: 350px;
+  }
+
+  .shutter {
+    font-size: 7rem;
+  }
+
+  .socials {
+    font-size: 0.7rem;
+    gap: 1rem;
+    padding: 5px 8px;
+    top: 85%;
+  }
+}
+
+@media screen and (max-width:1024px) {
+
+  .App {
+    padding: 0 6rem;
+  }
+
+  /* .hero-img,
+  .project-right-img,
+  .about-left-img {
+    height: 300px;
+    width: 300px;
+  } */
+
+  .shutter {
+    font-size: 4rem;
+  }
+
+  .section-title {
+    font-size: 5rem;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .project-right {
+    align-self: center;
+  }
+
+  .about-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-left {
+    justify-self: center;
+  }
+
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .socials {
+    transform: rotate(0);
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

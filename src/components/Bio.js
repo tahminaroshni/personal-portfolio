@@ -8,7 +8,7 @@ const Bio = () => {
 
   return (
     <div className="bio container mx-auto mt-20 overflow-hidden">
-      <p ref={bioRef}>I am a ReactJS developer specialized in building responsive web applications using React, Redux, Tailwind CSS and GSAP. My expertise in UI design and animation allows me to create visually appealing and functional solutions. I am dedicated to delivering high-quality work and staying up-to-date with the latest web development trends.</p>
+      <p ref={bioRef}>I am a ReactJS developer with expertize in React, Redux, Tailwind CSS and Bootstrap and also learning Mern Stack. I deliver responsive, creative and innovative web applications. Passionate about coding and always up to date with latest technologies. Let's create a high quality solution together!</p>
     </div>
   );
 };

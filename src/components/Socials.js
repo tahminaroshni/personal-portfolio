@@ -2,10 +2,10 @@ import { useRef } from "react";
 import { useGsapSocialsReveal } from "../hooks/gsap";
 
 const data = [
-  { id: 1, title: 'Facebook', link: 'https://www.google.com' },
-  { id: 2, title: 'Github', link: 'https://www.google.com' },
-  { id: 3, title: 'LinkedIn', link: 'https://www.google.com' },
-  { id: 4, title: 'Instagram', link: 'https://www.google.com' },
+  { id: 1, title: 'Facebook', link: 'https://www.facebook.com/roshnisharmin.tonny' },
+  { id: 2, title: 'Github', link: 'https://github.com/tahminaroshni' },
+  { id: 3, title: 'LinkedIn', link: 'https://www.linkedin.com/in/tahmina-tanni-982060265/' },
+  // { id: 4, title: 'Instagram', link: 'https://www.google.com' },
   { id: 5, title: 'Twitter', link: 'https://www.google.com' },
 ];
 

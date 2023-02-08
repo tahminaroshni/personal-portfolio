@@ -16,7 +16,7 @@ const Navbar = ({ footerNav }) => {
   useGsapLinksReveal(linksArr, 1.5);
 
   return (
-    <nav className={`navbar container mx-auto ${footerNav ? 'mt-40' : 'mt-20'} flex justify-between uppercase`}>
+    <nav className={`navbar ${footerNav ? 'mt-40' : 'mt-20'} flex justify-between uppercase`}>
       <div ref={logoRef} className="logo">
         <HashLink className=" link-item" smooth to='#home'>
           {
@@ -41,7 +41,7 @@ const Navbar = ({ footerNav }) => {
           <HashLink className="link-item" to='#contact'>Contact</HashLink>
         </li>
         <li ref={link6Ref}>
-          <a href="https://www.google.com" target='_blank' rel="noreferrer" className="link-item" to='#resume'>View Resume</a>
+          <a href="https://docs.google.com/document/d/1hxYzH__U_99pivIKX-XsztLaNZ9lzF6JMFpZupgm60w/edit?usp=drivesdk" target='_blank' rel="noreferrer" className="link-item" to='#resume'>View Resume</a>
         </li>
       </ul>
     </nav>

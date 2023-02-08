@@ -28,7 +28,7 @@ const Project = ({ project }) => {
               <a href={project.liveSite} target="_blank" rel="noreferrer">Live Site</a>
             </button>
             <button className="py-8 px-14 border border-white/25 uppercase rounded-full hover:bg-cyan-500/25 hover:border-cyan-500/25 duration-300 tracking-widest">
-              <a href={project.backEndCode} target="_blank" rel="noreferrer">Front-end Code</a>
+              <a href={project.frontEndCode} target="_blank" rel="noreferrer">Front-end Code</a>
             </button>
             <button>
               {
