@@ -3,10 +3,14 @@ import { Route, Routes } from "react-router-dom";
 import CustomCursor from "./components/CustomCursor";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import { useCustomCursor } from "./hooks/useCustomCursor";
 import { useSmoothScroll } from "./hooks/useSmoothScroll";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import NotFound from "./components/NotFound";
 
 function App() {
   const innerCursorRef = useRef(null);
@@ -23,6 +27,10 @@ function App() {
       <Socials />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Navbar footerNav />
       <Footer />
